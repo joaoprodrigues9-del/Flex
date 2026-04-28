@@ -1,8 +1,7 @@
-.perfil
-{
+.perfil {
     background-color: black;
     padding: 20px;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
@@ -10,16 +9,99 @@
     width: 500px;
     height: 200px;
 }
-h1
-{
+
+h1 {
     color: white;
 }
-p
-{
+
+p {
     color: white;
+    font-size: 19px;
 }
-img
-{
+
+img {
     border-radius: 30px;
     border: 3px groove white;
+}
+
+.style {
+    background-color: black;
+    width: 40%;
+    height: 12%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    padding: 3px;
+}
+
+.display {
+    background-color: grey;
+    width: 200px;
+    height: 220px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.justify {
+    background-color: grey;
+    width: 200px;
+    height: 220px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.align {
+    background-color: grey;
+    width: 200px;
+    height: 220px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+section {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 20px;
+    margin:  20px auto;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    background-color: gray;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.card{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(255, 0, 0);
+    margin:  20px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card>*{
+    margin: auto;
+}
+.card img{
+    display: block;
 }
